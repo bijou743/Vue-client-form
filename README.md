@@ -1,29 +1,38 @@
 # vue-client-form
 
-This template should help get you started developing with Vue 3 in Vite.
+Pet project based on test task for Junior FrontDev. According to the task it is necessary to make up the form for creating new client.
 
-## Recommended IDE Setup
+Fields of form:
+- Last name*
+- First name*
+- Middle name
+- Date of birth*
+- Phone number (11 numbers starting with +7)
+- Sex
+- Group of clients* (multiselect)
+- Doctor (select)
+- Do not send SMS (checkbox)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Address:
+- Postcode
+- Country
+- Region
+- City*
+- Street
+- House number
 
-## Customize configuration
+Documents:
+- Type of document* (select)
+- Series
+- Number
+- Who issued
+- Date of issue*
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+\* - required field
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Task description:
+- performers can choose the design of the form themselves
+- it is not allowed to use any libraries
+- it is necessary to make form validation and to show errors to user
+- if there are no errors show the message 'New client was successfully created'
+- the form must be responsive
